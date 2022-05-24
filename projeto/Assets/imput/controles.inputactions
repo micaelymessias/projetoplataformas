@@ -1,0 +1,89 @@
+{
+    "name": "controles",
+    "maps": [
+        {
+            "name": "gameplay",
+            "id": "55260d24-2aef-4b55-94e5-42c860443990",
+            "actions": [
+                {
+                    "name": "movimento",
+                    "type": "Value",
+                    "id": "6de6c24a-a8e0-4a5d-a54e-57489c1d7a8c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "setas",
+                    "id": "8e13f56f-e761-4389-a43c-3553687a10dc",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movimento",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "51580854-fc86-4ed1-92bb-8bee30db0e10",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "teclado",
+                    "action": "movimento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "ed588759-4517-448d-9e23-0b3b1edb6072",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "teclado",
+                    "action": "movimento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "670cb66b-e535-4444-850f-617a9f1b8bea",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "teclado",
+                    "action": "movimento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "201ed6be-16dd-40b6-b9b0-9f16da7e1474",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "teclado",
+                    "action": "movimento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "teclado",
+            "bindingGroup": "teclado",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
